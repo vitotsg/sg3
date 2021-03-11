@@ -3,6 +3,8 @@
 [profiles]
   [[default]]
     cursor_color = "#aaaaaa"
+  [[sg3]]
+    cursor_color = "#aaaaaa"
 [layouts]
   [[default]]
     [[[window0]]]
@@ -16,18 +18,109 @@
       type = Window
       parent = ""
       order = 0
-      position = 0:27
-      maximised = False
+      position = 0:0
+      maximised = True
       fullscreen = False
-      size = 571, 303
+      size = 1920, 1016
       title = root@localhost-live:~/sg3
-      last_active_term = 72862806-33b7-4845-b6c2-8aadc0f11011
+      last_active_term = 1e9ad7c7-a04f-44a3-99ad-5ceda51b6039
       last_active_window = True
-    [[[terminal1]]]
-      type = Terminal
+    [[[child1]]]
+      type = VPaned
       parent = child0
       order = 0
+      position = 506
+      ratio = 0.5004945598417408
+    [[[child2]]]
+      type = HPaned
+      parent = child1
+      order = 0
+      position = 956
+      ratio = 0.49921671018276764
+    [[[child3]]]
+      type = VPaned
+      parent = child2
+      order = 0
+      position = 250
+      ratio = 0.499001996007984
+    [[[terminal4]]]
+      type = Terminal
+      parent = child3
+      order = 0
+      group = SG3
+      profile = sg3
+      uuid = 1e9ad7c7-a04f-44a3-99ad-5ceda51b6039
+    [[[terminal5]]]
+      type = Terminal
+      parent = child3
+      order = 1
+      group = SG3
       profile = default
-      uuid = 72862806-33b7-4845-b6c2-8aadc0f11011
-      directory = ""
+      uuid = 1f0f39bb-1423-4427-b1b0-96ee85417a78
+    [[[child6]]]
+      type = VPaned
+      parent = child2
+      order = 1
+      position = 250
+      ratio = 0.499001996007984
+    [[[terminal7]]]
+      type = Terminal
+      parent = child6
+      order = 0
+      group = SG3
+      profile = default
+      uuid = 668584b1-177b-4b72-9028-494d52104b84
+    [[[terminal8]]]
+      type = Terminal
+      parent = child6
+      order = 1
+      group = SG3
+      profile = default
+      uuid = 54d1a4a8-9d75-4f0d-9316-d0b811f1813d
+    [[[child9]]]
+      type = HPaned
+      parent = child1
+      order = 1
+      position = 956
+      ratio = 0.49921671018276764
+    [[[child10]]]
+      type = VPaned
+      parent = child9
+      order = 0
+      position = 250
+      ratio = 0.5
+    [[[terminal11]]]
+      type = Terminal
+      parent = child10
+      order = 0
+      group = SG3
+      profile = default
+      uuid = a587344a-f185-4c2a-bfa8-b21063e52a13
+    [[[terminal12]]]
+      type = Terminal
+      parent = child10
+      order = 1
+      group = SG3
+      profile = default
+      uuid = bb1bfaf4-3a3e-472c-ad60-4e12ffa2a32a
+    [[[child13]]]
+      type = VPaned
+      parent = child9
+      order = 1
+      position = 250
+      ratio = 0.5
+    [[[terminal14]]]
+      type = Terminal
+      parent = child13
+      order = 0
+      group = SG3
+      profile = default
+      uuid = 0ca370c8-a462-4882-a486-ab948409b6df
+    [[[terminal15]]]
+      type = Terminal
+      parent = child13
+      order = 1
+      group = SG3
+      profile = default
+      uuid = d3ef1ac1-ad05-45cd-8ffb-c64dbccdf201
 [plugins]
